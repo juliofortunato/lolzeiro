@@ -1,0 +1,22 @@
+{
+  "name": "lolzeiro",
+  "version": "1.0.0",
+  "description": "A Discord bot that interacts with the League of Legends API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliofortunato/lolzeiro.git"
+  },
+  "author": "Júlio Fortunato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliofortunato/lolzeiro/issues"
+  },
+  "homepage": "https://github.com/juliofortunato/lolzeiro#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}

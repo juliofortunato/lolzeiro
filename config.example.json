@@ -1,0 +1,5 @@
+{
+  "discordToken": "YOUR_DISCORD_TOKEN",
+  "riotAPIToken": "YOUR_RIOT_API_TOKEN",
+  "prefix": "!"
+}
