@@ -2,7 +2,7 @@
   "name": "lolzeiro",
   "version": "1.0.0",
   "description": "A Discord bot that interacts with the League of Legends API",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/juliofortunato/lolzeiro#readme",
   "dependencies": {
+    "axios": "^0.19.0",
     "discord.js": "^11.5.1"
   },
   "devDependencies": {
