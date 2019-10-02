@@ -3,11 +3,11 @@ const { RichEmbed } = require("discord.js");
 const { riotAPIToken } = require("../config.json");
 
 module.exports = {
-  name: "mastery",
+  name: "!mastery",
   description: "Informações sobre sua maior mastery",
   async execute(message, args) {
     try {
-      const summonerId = args.join(' ');
+      const summonerId = args.join(" ");
       const response = await axios.get(
         `https://br1.api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-summoner/${summonerId}?api_key=${riotAPIToken}`
       );

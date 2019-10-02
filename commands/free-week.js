@@ -3,7 +3,7 @@ const { RichEmbed } = require("discord.js");
 const { riotAPIToken } = require("../config.json");
 
 module.exports = {
-  name: "free-week",
+  name: "!free-week",
   description: "Informações sobre a rotação semanal de campeões grátis",
   async execute(message, args) {
     try {

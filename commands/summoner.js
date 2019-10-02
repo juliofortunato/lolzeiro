@@ -3,7 +3,7 @@ const { RichEmbed } = require("discord.js");
 const { riotAPIToken } = require("../config.json");
 
 module.exports = {
-  name: "summoner",
+  name: "!summoner",
   description: "Information about a specific summoner",
   async execute(message, args) {
     const name = args.join(" ");
