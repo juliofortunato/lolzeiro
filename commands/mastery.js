@@ -7,9 +7,14 @@ module.exports = {
   description: "Informações sobre sua maior mastery",
   async execute(message, args) {
     try {
-      const summonerId = args.join(" ");
+      const name = encodeURI(args.join(" "));
+
+      const { data: { summoner } } = await axios.get(
+        `https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/${name}?api_key=${riotAPIToken}`
+      );
+
       const response = await axios.get(
-        `https://br1.api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-summoner/${summonerId}?api_key=${riotAPIToken}`
+        `https://br1.api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-summoner/${summoner.id}?api_key=${riotAPIToken}`
       );
       const mastery = response.data[0];
       const championImgURL = `https://cdn.communitydragon.org/latest/champion/${mastery.championId}/square.png`;
