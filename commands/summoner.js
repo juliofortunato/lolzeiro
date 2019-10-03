@@ -6,7 +6,7 @@ module.exports = {
   name: "!summoner",
   description: "Information about a specific summoner",
   async execute(message, args) {
-    const name = args.join(" ");
+    const name = encodeURI(args.join(" "));
 
     try {
       const response = await axios.get(
