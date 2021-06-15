@@ -1,6 +1,6 @@
 const axios = require("axios").default;
 const { RichEmbed } = require("discord.js");
-const { riotAPIToken } = require("../config.json");
+const riotAPIToken = process.env.RIOT_API_TOKEN;
 
 module.exports = {
   name: "!free-week",

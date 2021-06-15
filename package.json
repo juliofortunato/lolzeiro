@@ -4,6 +4,8 @@
   "description": "A Discord bot that interacts with the League of Legends API",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +21,9 @@
   "dependencies": {
     "axios": "^0.21.1",
     "discord.js": "^11.5.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7"
   }
 }
