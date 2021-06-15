@@ -11,5 +11,5 @@ https://docs.google.com/presentation/d/1isug1ZqVVJdX4joagw2_yq97IAn_VQNN0vaAX-FE
 - Clone/baixe o repositório
 - Entre na pasta do lolzeiro
 - Execute o comando `npm install`
-- Renomeie o arquivo `config.example.json` para `config.json` e preencha com seus tokens do Discord e Riot, respectivamente.
+- Renomeie o arquivo `.env.example` para `.env` e preencha com seus tokens do Discord e Riot, respectivamente.
 - Execute o comando `node index.js`
