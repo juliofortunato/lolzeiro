@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "build": "./scripts/setup.sh",
+    "build": "npm install && npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
