@@ -4,7 +4,7 @@
   "description": "A Discord bot that interacts with the League of Legends API",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node .",
     "dev": "nodemon index.js"
   },
   "repository": {
