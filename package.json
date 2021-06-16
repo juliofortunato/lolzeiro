@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "A Discord bot that interacts with the League of Legends API",
   "main": "index.js",
-  "scripts": {
+  "engines": {
+    "node": "14.15.3"
+  },
+   "scripts": {
     "start": "node .",
     "dev": "nodemon index.js"
   },
