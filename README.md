@@ -4,7 +4,7 @@ Um bot para Discord que interage com a API do League of Legends
 
 ## Slides do curso
 
-https://docs.google.com/presentation/d/1isug1ZqVVJdX4joagw2_yq97IAn_VQNN0vaAX-FEm8M/edit?usp=sharing
+https://docs.google.com/presentation/d/1AV1S5KkXfE5PatgRZEQzZ8op0Ty1Bvx-Gw61FsmHFII/edit?usp=sharing
 
 ## Como rodar o projeto
 
